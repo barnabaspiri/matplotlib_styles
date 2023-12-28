@@ -363,7 +363,7 @@ font.sans-serif: Arial
 ## default font sizes for tick labels, and so on.  See
 ## https://matplotlib.org/stable/api/axes_api.html#module-matplotlib.axes
 axes.facecolor:     "#f2f2f2"   # axes background color
-axes.edgecolor:     "black"   # axes edge color
+axes.edgecolor:     black   # axes edge color
 #axes.linewidth:     0.8     # edge line width
 axes.grid:          True   # display grid or not
 #axes.grid.axis:     both    # which axis the grid should apply to
