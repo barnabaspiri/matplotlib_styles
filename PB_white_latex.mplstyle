@@ -115,8 +115,8 @@
 ## for more information on line properties.
 lines.linewidth: 1.0               # line width in points
 #lines.linestyle: -                 # solid line
-lines.color: 000080              # has no affect on plot(); see axes.prop_cycle
-lines.marker: D        # the default marker
+#lines.color: 000080              # has no affect on plot(); see axes.prop_cycle
+#lines.marker: X        # the default marker
 #lines.markerfacecolor: auto        # the default marker face color
 #lines.markeredgecolor: auto        # the default marker edge color
 #lines.markeredgewidth: 1.0         # the line width around the marker symbol
@@ -411,7 +411,7 @@ axes.labelsize:     8.25  # font size of the x and y labels
 
 #axes.unicode_minus: True  # use Unicode for the minus symbol rather than hyphen.  See
                            # https://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
-axes.prop_cycle: cycler('color', ['000080', 'd99300', '2E891E', '810C8C', 'A01313'])
+axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
                   # color cycle for plot lines as list of string color specs:
                   # single letter, long name, or web-style hex
                   # As opposed to all other parameters in this file, the color
@@ -519,7 +519,7 @@ ytick.labelsize:     8.25  # font size of the tick labels
 ## * GRIDS                                                                   *
 ## ***************************************************************************
 grid.color:     "#d9d9d9"  # grid color
-#grid.linestyle: -          # solid
+grid.linestyle: --          # solid
 grid.linewidth: 0.8        # in points
 grid.alpha:     0.5        # transparency, between 0.0 and 1.0
 
@@ -538,7 +538,7 @@ grid.alpha:     0.5        # transparency, between 0.0 and 1.0
 #legend.numpoints:     1        # the number of marker points in the legend line
 #legend.scatterpoints: 1        # number of scatter points
 #legend.markerscale:   1.0      # the relative size of legend markers vs. original
-#legend.fontsize:      medium
+legend.fontsize:      8.0
 #legend.labelcolor:    None
 #legend.title_fontsize: None    # None sets to the same as the default axes.
 
@@ -638,7 +638,7 @@ figure.dpi:         100       # figure dots per inch
 ## ***************************************************************************
 ## * SCATTER PLOTS                                                           *
 ## ***************************************************************************
-scatter.marker: v         # The default marker type for scatter plots.
+scatter.marker: x         # The default marker type for scatter plots.
 #scatter.edgecolors: face  # The default edge colors for scatter plots.
 
 
